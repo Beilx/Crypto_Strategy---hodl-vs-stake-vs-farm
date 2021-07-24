@@ -39,7 +39,7 @@ st.write('''## Individual daily staking pool reward (%) asset2 ''')
 asset2_stake = st.number_input(" % interest: ", min_value= 0.0001, max_value=999999999.0,step=0.1, format="%.4f", value=0.05)
 
 st.write('''## Liquidity-pool farming daily rewards (%) ''')
-asset1_asset2_farm_rewards = st.number_input(" Liquidity farming % interest: ", min_value= 0.0001, max_value=999999999.0,step=0.1, format="%.4f", value=0.2)
+asset1_asset2_farm_rewards = st.number_input(" Liquidity farming % interest: ", min_value= 0.0000, max_value=999999999.0,step=0.1, format="%.4f", value=0.2)
 
 st.write('''## Liquidity-pool farming fees/day (%) ''')
 asset1_asset2_farm_fees = st.number_input(" Liquidity farming fees/day (%): ", min_value= 0.0001, max_value=999999999.0,step=0.1, format="%.4f", value=0.01)
