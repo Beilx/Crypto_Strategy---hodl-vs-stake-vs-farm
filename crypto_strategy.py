@@ -5,7 +5,7 @@ import streamlit as st
 
 
 
-st.title("Simple Crypto Strategy Calculator: Hodling vs Stake vs Farm")
+st.title("Defi Strategy Calculator: Hodling vs Stake vs Farm")
 
 st.write("""
 Calculate Returns on cryptoassets for staking, farming or simply hodling. The default positions show a scenario as follows:\n
