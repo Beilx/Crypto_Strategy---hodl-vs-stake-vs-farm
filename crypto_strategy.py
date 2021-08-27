@@ -54,4 +54,3 @@ df
 
 st.write("## Best Strategy:",(df['Returns'][3]))
 
-# st.write('''## Best Strategy: print(df['Returns'][3])''', print(df['Returns'][3]))
