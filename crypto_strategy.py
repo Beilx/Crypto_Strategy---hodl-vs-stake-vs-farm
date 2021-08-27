@@ -6,7 +6,7 @@ import streamlit as st
 
 
 st.title("Defi Strategy Calculator: Hodling vs Stake vs Farm")
-st.markdown("![Alt Text](https://giphy.com/embed/3ov9jNziFTMfzSumAw)")
+st.markdown("![Alt Text](https://media.giphy.com/media/3ov9jNziFTMfzSumAw/giphy.gif?cid=790b7611b961c6b474de2d63bc7b7a34865aa135f4df9f7d&rid=giphy.gif&ct=g)")
 
 st.write("""
 Calculate Returns on cryptoassets for staking, farming or simply hodling. The default positions show a scenario as follows:\n
